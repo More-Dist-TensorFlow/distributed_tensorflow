@@ -1,6 +1,3 @@
-# Coder: Wenxin Xu
-# Github: https://github.com/wenxinxu/resnet_in_tensorflow
-# ==============================================================================
 '''
 This is the resnet structure
 '''
