@@ -71,7 +71,7 @@ except TypeError as err:
     print('Warning, typerr {0}'.format(err))
 
 old_args[0] = whereami() + '/distributed_train.py'
-old_args = ['python3'] + old_args
+old_args = ['python2'] + old_args
 print('Running:', old_args)
 
 try:

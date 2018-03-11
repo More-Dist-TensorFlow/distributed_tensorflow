@@ -1,6 +1,6 @@
 FROM registry.cn-hangzhou.aliyuncs.com/denverdino/tensorflow:latest
 
-RUN apt update && apt install -y python3-pip && echo y | pip3 install tensorflow
+RUN apt update && apt install -y python3-pip && echo y | pip install twisted
 
 RUN mkdir -p /tf/resnet
 ADD src /tf/resnet
